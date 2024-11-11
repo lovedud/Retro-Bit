@@ -1,0 +1,81 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list__button {
+    width: 100%;
+    height: 62px;
+    background: linear-gradient(180deg, #00E9FF 0%, #0078F8 100%);
+    border-radius: 10px;
+    border: none;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.game-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.list__games {
+    height: calc(100vh - 380px);
+    overflow: scroll;
+    background-color: #4498FF59;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.game-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    border-bottom: 1px solid #FFFFFF33;
+}
+
+.game-info {
+    display: flex;
+    width: 164px;
+    gap: 12px;
+
+    img {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.game-points {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 104px;
+    color: #FFFFFF73;
+
+    img {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+.points {
+    font-family: "NoseTransport";
+    font-size: 20px;
+    color: #FFFFFF73;
+}
+
+.game-item__button {
+    width: 71px;
+    height: 36px;
+    padding: 7px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+
+    font-size: 14px;
+    font-weight: 700;
+}

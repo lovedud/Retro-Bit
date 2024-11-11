@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'NoseTransport9';
+    src: url('../public/fonts/NoseTransport9-BoldDot.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background: linear-gradient(180.02deg, #062B63 29.17%, #00489E 62.22%, #0672D7 99.98%);
+    
+    max-width: 393px;
+    height: 100vh;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+}
